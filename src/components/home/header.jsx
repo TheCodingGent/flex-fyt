@@ -77,7 +77,7 @@ class Header extends Component {
     return (
       <p>
         A one-stop-shop for all your fitness needs, explore gyms near you and
-        enjoy a gym membership taylored to your daily lifestyle.
+        enjoy a gym membership taylored to your daily lifestyle test.
       </p>
     );
   }
