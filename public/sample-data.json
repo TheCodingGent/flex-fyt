@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "name": "Gym1",
+    "address": "123 Fake St.",
+    "city": "Dallas",
+    "state/province": "TX",
+    "postal-code": "75000",
+    "location": ["32.776665", "-96.796989"],
+    "image-url": "https://unsplash.com/photos/20jX9b35r_M",
+    "services": ["weight room", "swimming", "boxing"]
+  },
+  {
+    "id": "2",
+    "name": "Gym2",
+    "address": "456 Fake St.",
+    "city": "Montreal",
+    "state/province": "QC",
+    "postal-code": "74000",
+    "location": ["45.501690", "-73.567253"],
+    "image-url": "https://unsplash.com/photos/LOA2mTj1vhc",
+    "services": ["weight room", "yoga"]
+  },
+  {
+    "id": "3",
+    "name": "Gym3",
+    "address": "789 Fake St.",
+    "city": "Montreal",
+    "state/province": "QC",
+    "postal-code": "74001",
+    "location": ["45.501690", "-73.567253"],
+    "image-url": "https://unsplash.com/photos/gJtDg6WfMlQ",
+    "services": ["cardio", "yoga", "gymnastics"]
+  },
+  {
+    "id": "4",
+    "name": "Gym4",
+    "address": "012 Fake St.",
+    "city": "Moreal",
+    "state/province": "QC",
+    "postal-code": "74002",
+    "location": ["45.501690", "-73.567253"],
+    "image-url": "https://unsplash.com/photos/gJtDg6WfMlQ",
+    "services": ["kick-boxing"]
+  }
+]
