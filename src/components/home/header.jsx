@@ -12,7 +12,7 @@ const StyledHeader = styled.div`
 `;
 
 const Welcome = styled.h1`
-  color: white;
+  color: red;
   text-align: center;
   font-size: 45px;
   letter-spacing: 0.01em;
