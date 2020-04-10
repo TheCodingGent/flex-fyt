@@ -7,7 +7,6 @@
     "state/province": "TX",
     "postal-code": "75000",
     "location": ["32.776665", "-96.796989"],
-    "image-url": "https://unsplash.com/photos/20jX9b35r_M",
     "services": ["weight room", "swimming", "boxing"]
   },
   {
@@ -18,7 +17,6 @@
     "state/province": "QC",
     "postal-code": "74000",
     "location": ["45.501690", "-73.567253"],
-    "image-url": "https://unsplash.com/photos/LOA2mTj1vhc",
     "services": ["weight room", "yoga"]
   },
   {
@@ -29,7 +27,6 @@
     "state/province": "QC",
     "postal-code": "74001",
     "location": ["45.501690", "-73.567253"],
-    "image-url": "https://unsplash.com/photos/gJtDg6WfMlQ",
     "services": ["cardio", "yoga", "gymnastics"]
   },
   {
@@ -40,7 +37,6 @@
     "state/province": "QC",
     "postal-code": "74002",
     "location": ["45.501690", "-73.567253"],
-    "image-url": "https://unsplash.com/photos/gJtDg6WfMlQ",
     "services": ["kick-boxing"]
   }
 ]
