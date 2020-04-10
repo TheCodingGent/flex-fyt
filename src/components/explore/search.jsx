@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import GymInfo from "./gymInfo";
-import MapContainer from "./map";
 
 class Search extends Component {
   state = {
@@ -11,13 +10,13 @@ class Search extends Component {
 
   fetchData = () => {
     if (this.state.query === "") {
-      const response = axios
+      axios
         .get("http://localhost:8983/solr/flexfyt_core/select?q=*:*")
         .then((response) =>
           this.setState({ result: response.data.response.docs })
         );
     } else {
-      const response = axios
+      axios
         .get(
           encodeURI(
             "http://localhost:8983/solr/flexfyt_core/select?q=city:" +
@@ -43,7 +42,8 @@ class Search extends Component {
           <GymInfo
             key={gym.id}
             name={gym.name}
-            location={gym.address}
+            address={gym.address}
+            location={gym.location}
             services={gym.services}
             image={gym["image-url"]}
             city={gym.city}
