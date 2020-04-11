@@ -5,24 +5,30 @@ import ExploreButton from "./exploreButton";
 // Styles
 const StyledHeader = styled.div`
   vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
+  position: fixed;
   padding: 20px;
-  background: #343a40; // dark grey
+  width: 100%;
+  height: 100%;
+  background-image: url("images/dumbbell-homePagebackground.jpg");
+  background-size: cover;
 `;
 
 const Welcome = styled.h1`
-  color: yellow;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 40%;
   text-align: center;
   font-size: 45px;
+  font-style: oblique;
   letter-spacing: 0.01em;
   margin: 0px;
 `;
 
 const Paragraph = styled.p`
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  position: absolute;
+  top: 30%;
   text-align: center;
   font-size: 24px;
   letter-spacing: 0.01em;

@@ -3,7 +3,8 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 
 const StyledExploreButton = styled.button`
-  position: relative;
+  position: absolute;
+  top: 40%;
   left: 50%;
 `;
 
