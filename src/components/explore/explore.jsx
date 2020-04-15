@@ -1,14 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Search from "./search";
 
-class Explore extends Component {
-  // these gyms should be defined in a json and loaded
-
-  state = {};
-
-  render() {
-    return <Search />;
-  }
+function Explore() {
+  return <Search />;
 }
 
 export default Explore;

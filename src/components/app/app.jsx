@@ -2,14 +2,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import "./assets/css/default.min.css";
+import "../../assets/css/default.min.css";
 
 // Components
-import Header from "./components/common/header.jsx";
-import Home from "./components/home/home.jsx";
-import Explore from "./components/explore/explore.jsx";
-import Contact from "./components/contact/contact.jsx";
-import AboutUs from "./components/aboutus/about.jsx";
+import Header from "../common/header.jsx";
+import Home from "../home";
+import Explore from "../explore";
+import Contact from "../contact/contact.jsx";
+import AboutUs from "../aboutus/about.jsx";
 
 function App() {
   return (

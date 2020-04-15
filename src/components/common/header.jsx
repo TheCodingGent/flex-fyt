@@ -1,12 +1,10 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
       <div className="logo">FLEXFYT</div>
-
       <nav>
         <ul>
           <li className="first">
