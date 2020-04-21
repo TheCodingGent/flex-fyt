@@ -30,11 +30,7 @@ function formatServices(services) {
 function GymInfo(props) {
   return (
     <div className="card">
-      <img
-        className="card-img-top"
-        src={getImageurl(props.name)}
-        alt="no-image"
-      />
+      <img className="card-img-top" src={getImageurl(props.name)} alt="" />
       <div className="card-body">
         <h4 className="card-title">{props.name}</h4>
         <p className="card-text">Services: {formatServices(props.services)}</p>

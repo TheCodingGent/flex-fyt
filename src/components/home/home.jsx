@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./header";
-import ExploreButton from "./exploreButton";
+import Intro from "./intro";
+
+import "./home.scss";
 
 function Home() {
   return (
-    <div>
-      <Header />
-      <ExploreButton />
+    <div id="home">
+      <Intro />
     </div>
   );
 }
