@@ -7,6 +7,9 @@ function Home() {
   return (
     <div id="home">
       <Intro />
+      <div className="backstretch">
+        <img src="/images/cardio.jpg" />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,24 @@
+.backstretch {
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  height: 600px;
+  width: 100%;
+  z-index: -999998;
+  position: absolute;
+}
+
+.backstretch img {
+  top: 0;
+  left: 0;
+  height: auto;
+  position: absolute;
+  width: 100%;
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  opacity: 90%;
+}

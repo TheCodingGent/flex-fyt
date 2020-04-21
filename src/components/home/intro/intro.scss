@@ -1,21 +1,21 @@
-.intro-content {
+.home-intro {
   padding: 210px 0; //top padding
-  background-color: black;
 }
 
-.intro-content .text {
+.home-intro .text {
+  text-align: center;
   color: white;
 }
 
-.intro-content .text h1 {
+.home-intro .text h1 {
   margin: 25px;
   color: white;
 }
 
-.intro-content .description {
+.home-intro .description {
   margin: 30px 0 10px 0;
 }
 
-.intro-content .description p {
+.home-intro .description p {
   opacity: 0.8;
 }

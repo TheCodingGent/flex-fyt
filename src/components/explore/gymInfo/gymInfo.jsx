@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./gymInfo.scss";
+
 // Constants
 const imageMappings = {
   Gym1: "swimming.jpg",
@@ -29,7 +31,7 @@ function formatServices(services) {
 // Component
 function GymInfo(props) {
   return (
-    <div className="card">
+    <div className="gym-card card">
       <img className="card-img-top" src={getImageurl(props.name)} alt="" />
       <div className="card-body">
         <h4 className="card-title">{props.name}</h4>
