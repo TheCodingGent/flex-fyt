@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import "./navbar.scss";
 
-//navbar-no-bg
-
 function Navbar() {
+  const [navbarClass, setNavbarClass] = useState(
+    "navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg"
+  );
+
   function scrollToTop() {
     scroll.scrollToTop();
   }
 
+  // remove blur when navigating away from home
+  const handleHomeInactive = () => {
+    setNavbarClass("navbar navbar-dark fixed-top navbar-expand-md");
+  };
+
+  // add blur on home
+  const handleHomeActive = () => {
+    setNavbarClass(
+      "navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg"
+    );
+  };
+
   return (
-    <nav className="navbar navbar-dark fixed-top navbar-expand-md">
+    <nav className={navbarClass}>
       <div className="container">
         <div className="navbar-brand">
           <img
@@ -41,6 +55,8 @@ function Navbar() {
                 smooth={true}
                 duration={500}
                 className="nav-link scroll-link"
+                onSetInactive={handleHomeInactive}
+                onSetActive={handleHomeActive}
               >
                 Home
               </Link>

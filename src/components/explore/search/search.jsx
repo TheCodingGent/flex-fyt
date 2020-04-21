@@ -37,7 +37,7 @@ function Search() {
       </div>
       <div className="search-result-container d-flex justify-content-start">
         {result.map((gym) => (
-          <div className="search-result p-2">
+          <div key={gym.id} className="search-result p-2">
             <GymInfo
               key={gym.id}
               name={gym.name}

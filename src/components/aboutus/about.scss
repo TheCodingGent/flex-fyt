@@ -1,3 +1,17 @@
 .aboutus-container {
-  padding: 20px;
+  padding-top: 80px;
+}
+
+.aboutus-container .aboutus-content .aboutus-img {
+  padding-left: 10px;
+  padding-top: 100px;
+}
+
+.aboutus-container .aboutus-content .aboutus-text {
+  padding: 10px;
+}
+
+.aboutus-container .aboutus-content .aboutus-img img {
+  width: 400px;
+  height: 230px;
 }
