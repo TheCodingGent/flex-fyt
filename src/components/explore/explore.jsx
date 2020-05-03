@@ -5,7 +5,10 @@ import "./explore.scss";
 
 function Explore() {
   return (
-    <div id="explore" className="explore-container d-flex flex-column">
+    <div
+      id="explore"
+      className="explore-container container d-flex flex-column"
+    >
       <div className="explore-header d-flex justify-content-center">
         <h1>Explore</h1>
       </div>

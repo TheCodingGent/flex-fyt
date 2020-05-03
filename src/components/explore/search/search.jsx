@@ -27,7 +27,7 @@ function Search() {
   }, [query]);
 
   return (
-    <div className="search-container d-flex flex-column">
+    <div className="search-container container d-flex flex-column">
       <div className="search-bar d-flex justify-content-center">
         <input
           placeholder="Enter city name"
@@ -35,7 +35,7 @@ function Search() {
           onChange={handleInputChange}
         />
       </div>
-      <div className="search-result-container d-flex justify-content-start">
+      <div className="search-result-container d-flex justify-content-center">
         {result.map((gym) => (
           <div key={gym.id} className="search-result p-2">
             <GymInfo

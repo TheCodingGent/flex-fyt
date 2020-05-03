@@ -4,7 +4,10 @@ import "./contact.scss";
 
 function Contact() {
   return (
-    <div id="contact" className="contact-container d-flex flex-column">
+    <div
+      id="contact"
+      className="contact-container container d-flex flex-column"
+    >
       <div className="contact-header d-flex justify-content-left">
         <h1>Contact Us</h1>
       </div>
