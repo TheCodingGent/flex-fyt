@@ -5,8 +5,8 @@
     "address": "123 Fake St.",
     "city": "Dallas",
     "state/province": "TX",
-    "postal-code": "75000",
-    "location": ["32.776665", "-96.796989"],
+    "zipcode": "75000",
+    "latlng": "32.776665,-96.796989",
     "services": ["weight room", "swimming", "boxing"]
   },
   {
@@ -15,8 +15,8 @@
     "address": "456 Fake St.",
     "city": "Montreal",
     "state/province": "QC",
-    "postal-code": "74000",
-    "location": ["45.501690", "-73.567253"],
+    "zipcode": "H3A-1A2",
+    "latlng": "45.4930942,-73.5741759",
     "services": ["weight room", "yoga"]
   },
   {
@@ -25,18 +25,18 @@
     "address": "789 Fake St.",
     "city": "Montreal",
     "state/province": "QC",
-    "postal-code": "74001",
-    "location": ["45.501690", "-73.567253"],
+    "zipcode": "H3A-3B4",
+    "latlng": "45.4907335,-73.5784839",
     "services": ["cardio", "yoga", "gymnastics"]
   },
   {
     "id": "4",
     "name": "Gym4",
     "address": "012 Fake St.",
-    "city": "Moreal",
+    "city": "Laval",
     "state/province": "QC",
-    "postal-code": "74002",
-    "location": ["45.501690", "-73.567253"],
+    "zipcode": "H3A-5C6",
+    "latlng": "45.6092812,-73.6995971",
     "services": ["kick-boxing"]
   }
 ]
